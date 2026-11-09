@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#2c4054">
+  <meta name="description" content="Ficha del manga Kiokugiri y acceso al capítulo 1.">
+  <title>Kiokugiri | Manhwa Web</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <!-- ENCABEZADO -->
+  <header class="topbar">
+    <div class="container topbar-inner">
+      <div class="brand" aria-label="Manhwa Web">
+        <span>MANHWA</span><strong>WEB</strong>
+      </div>
+      <div class="topbar-right">
+        <!-- Elementos visuales para mantener el estilo de la referencia. -->
+        <div class="search-display" aria-hidden="true">
+          <span>Buscar...</span>
+          <svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+            <circle cx="10.5" cy="10.5" r="6.5"></circle>
+            <path d="m16 16 5 5"></path>
+          </svg>
+        </div>
+        <span class="topbar-label">Iniciar Sesión</span>
+        <span class="topbar-label">Registrar</span>
+        <span class="topbar-icon" aria-hidden="true">⇧</span>
+      </div>
+    </div>
+  </header>
+
+  <div class="container">
+    <!-- BANNER DECORATIVO; NO REQUIERE AUDIO NI INTERNET -->
+    <section class="banner" aria-label="Sección de manga">
+      <img src="assets/portada.png" alt="Miniatura de Kiokugiri" class="banner-cover">
+      <div class="banner-message">
+        <span class="banner-eyebrow">MANHWA WEB</span>
+        <strong>Tu espacio de lectura</strong>
+        <span class="banner-subtext">Disfruta del capítulo de Kiokugiri</span>
+      </div>
+      <span class="banner-decor" aria-hidden="true">✦</span>
+    </section>
+
+    <!-- MENÚ VISUAL: no contiene enlaces adicionales -->
+    <nav class="site-nav" aria-label="Secciones de la página">
+      <span>Últ. Capítulos</span>
+      <span>Biblioteca</span>
+      <span>Foro / Guía</span>
+      <span>Géneros</span>
+      <span>Mis Manhwas</span>
+      <span>Mi Perfil</span>
+    </nav>
+
+    <!-- FICHA DEL MANGA -->
+    <main id="contenido">
+      <section class="manga-profile">
+        <div class="cover-card">
+          <div class="cover-card-top">MANGA</div>
+          <img class="main-cover" src="assets/portada.png" alt="Portada del manga Kiokugiri">
+          <div class="cover-card-bottom">KIOKUGIRI</div>
+        </div>
+
+        <div class="manga-info">
+          <h1>Kiokugiri</h1>
+          <div class="manga-rule"></div>
+          <h2 class="small-heading">Descripción</h2>
+          <!-- La descripción queda intencionalmente vacía. -->
+          <div class="description-space"></div>
+          <div class="details">
+            <div class="detail-item"><span class="detail-label">Título</span><strong>Kiokugiri</strong></div>
+            <div class="detail-item"><span class="detail-label">Capítulos</span><strong>1 disponible</strong></div>
+          </div>
+        </div>
+      </section>
+    </main>
+  </div>
+
+  <!-- FRANJA ESTADÍSTICA INSPIRADA EN LA REFERENCIA -->
+  <section class="stats-band" aria-label="Indicadores de lectura">
+    <div class="container stats-list">
+      <div class="stat"><span class="stat-icon cyan">▶</span><span><strong>0</strong><small>Siguiendo</small></span></div>
+      <div class="stat"><span class="stat-icon amber">◷</span><span><strong>0</strong><small>Pendiente</small></span></div>
+      <div class="stat"><span class="stat-icon green">✓</span><span><strong>0</strong><small>Finalizado</small></span></div>
+    </div>
+  </section>
+
+  <!-- ÚNICO ENLACE DE ESTA PÁGINA: CAPÍTULO 1 -->
+  <section class="container chapters-layout" aria-labelledby="chapters-title">
+    <div class="chapters-column">
+      <div class="chapters-heading">
+        <h2 id="chapters-title">Capítulos</h2>
+        <span>1 capítulo disponible</span>
+      </div>
+      <a class="chapter-link" href="capitulo1.html" aria-label="Leer Kiokugiri capítulo 1: El vacío">
+        <img src="assets/portada.png" alt="" class="chapter-thumbnail">
+        <div class="chapter-description">
+          <div class="chapter-title">Capítulo 1: El vacío</div>
+          <div class="chapter-bottom">
+            <span>Leer capítulo</span>
+            <span class="chapter-arrow" aria-hidden="true">→</span>
+          </div>
+        </div>
+      </a>
+    </div>
+    <aside class="sidebar" aria-label="Acerca de esta obra">
+      <div class="sidebar-title">Kiokugiri</div>
+      <div class="sidebar-body">
+        <span class="sidebar-subtitle">CAPÍTULO DISPONIBLE</span>
+        <strong>01</strong>
+        <p>El vacío</p>
+        <div class="sidebar-divider"></div>
+        <span class="sidebar-subtitle">IMÁGENES DEL CAPÍTULO</span>
+        <strong class="image-count">06</strong>
+      </div>
+    </aside>
+  </section>
+  <footer class="footer">Kiokugiri · Lectura de manga</footer>
+</body>
+</html>
